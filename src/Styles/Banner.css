@@ -1,0 +1,13 @@
+/* Card Component */
+.card {
+  border: none;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.cards {
+  max-width: 750px;
+  min-height: 600px;
+  padding-bottom: 50px;
+  margin: auto;
+}

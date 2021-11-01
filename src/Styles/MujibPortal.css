@@ -1,0 +1,15 @@
+.m_link {
+  font-size: 1.1rem;
+  color: var(--primary);
+  font-family: var(--font);
+  font-weight: var(--font-medium);
+}
+
+.m_link:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+.m_portal_wrapper {
+  box-shadow: 0 4px 4px hsl(0deg 0% 73% / 25%);
+}

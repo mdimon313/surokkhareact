@@ -1,0 +1,114 @@
+.single_sm_card {
+  height: 90px;
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-white);
+  border-radius: 5px;
+  color: var(--primary);
+  transition: all 0.4s ease-in-out;
+}
+
+.single_sm_card .card_head_sm h2 {
+  font-family: var(--font);
+  font-weight: var(--font-medium);
+  font-size: 1.5rem;
+}
+
+.card_head_sm span {
+  margin-right: 16px;
+}
+
+/* status card */
+.card_small .status {
+  position: relative;
+}
+
+.card_small .status:hover {
+  background-color: var(--green-hover);
+  color: var(--primary);
+}
+
+.card_small .status::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 80%;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: var(--green);
+}
+
+/* vaccine card */
+.card_small .vaccine_card {
+  position: relative;
+}
+
+.card_small .vaccine_card:hover {
+  background-color: var(--yellow-hover);
+  color: var(--primary);
+}
+
+.card_small .vaccine_card::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 80%;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: var(--yellow);
+}
+
+/* certificate card */
+.card_small .certificate {
+  position: relative;
+}
+
+.card_small .certificate:hover {
+  background-color: var(--success-alt-hover);
+  color: var(--primary);
+}
+
+.card_small .certificate::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 80%;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: var(--success-alt);
+}
+
+/* faq card */
+.card_small .faq {
+  position: relative;
+}
+
+.card_small .faq:hover {
+  background-color: var(--skyblue-hover);
+  color: var(--primary);
+}
+
+.card_small .faq::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 80%;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: var(--skyblue);
+}

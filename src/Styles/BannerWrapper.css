@@ -1,0 +1,29 @@
+/* Home Banner */
+.banner {
+  min-height: 80vh;
+  display: grid;
+  place-items: center;
+  background-color: #333;
+  background: url(../assets/img/banner-bg.jpg) no-repeat center;
+  background-size: cover;
+}
+
+/* Registration Start */
+.reg_banner {
+  background-color: var(--reg-bg);
+}
+
+/* certificate start */
+.banner_certificate {
+  background-color: var(--certificate-bg);
+}
+
+/* card Start */
+.banner_card {
+  background-color: var(--card-bg);
+}
+
+/* status start */
+.banner_status {
+  background-color: var(--green-hover);
+}
